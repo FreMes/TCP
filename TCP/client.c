@@ -88,7 +88,7 @@ int main(int argc, char **argv) {
     
     /* connect: create a connection with the server */
     if (connect(sockfd, &serveraddr, sizeof(serveraddr)) < 0)
-        error("ERROR connecting");
+        error("ERROR connecting ");
     
     while (1) {
         //SCHRIJVEN MAG AF
