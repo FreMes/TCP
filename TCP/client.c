@@ -110,7 +110,7 @@ int main(int argc, char **argv) {
     n = read(sockfd, buf, BUFSIZE);
     if (n < 0)
         error("ERROR reading from socket");
-        printf("Phil says: %s \n\r", buf);
+        printf("Phil says:  %s \n\r", buf);
         
         token = strtok(buf, s);
         
