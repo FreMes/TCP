@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>3FA65765-3F80-4B84-9D34-280763EA6B7F</string>
+	<string>C16A7ECB-8CB8-4473-97A4-06175F03A596</string>
 	<key>IDESourceControlProjectName</key>
-	<string>TCP</string>
+	<string>Server</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>999B7BEC-C2D3-4119-A372-3D9EB66501E2</key>
 		<string>https://github.com/FredericMes/TCP.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TCP.xcodeproj/project.xcworkspace</string>
+	<string>Server/Server.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>999B7BEC-C2D3-4119-A372-3D9EB66501E2</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/FredericMes/TCP.git</string>

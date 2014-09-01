@@ -47,7 +47,7 @@ int main(int argc, char **argv) {
     int sockfd, portno, n;
     struct sockaddr_in serveraddr;
     struct hostent *server;
-    char *hostname = "192.168.0.110";
+    char *hostname = "10.1.0.21";
     char buf[BUFSIZE];
     
     
@@ -60,8 +60,7 @@ int main(int argc, char **argv) {
     //    fprintf(stderr,"usage: %s <hostname> <port>\n", argv[0]);
     //    exit(0);
    // }
-    
-    printf("test %s",argv[1]);
+
     //hostname = argv[1]; //192.168.0.110
     portno = 12000;//atoi(argv[2]); //12000
     
@@ -71,8 +70,6 @@ int main(int argc, char **argv) {
         error("ERROR opening socket");
     
     /* gethostbyname: get the server's DNS entry */
-    printf("BLABLABLA");
-
     server = gethostbyname(hostname);
     if (server == NULL) {
         fprintf(stderr,"ERROR, no such host as %s\n", hostname);
